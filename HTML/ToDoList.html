@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="eng">
-    <head>
-        <meta charset="UTF-8">
-        <title> ToDoList </title>
-    </head>
-    <body>
-        <!-- Logo of the page -->
-        <img src="/Images/img3.png" width="80px"/>
-        <br/>
-        <br/>
-        <!-- Button redirected to Home.html -->
-        <a href="/HTML/Home.html"> <input type="button" value="Deconnexion" onclick="JSfunction()"/> </a>
-        <br/>
-        <br/>
-         <!-- Button redirected to Profil.html -->
-         <a href="/HTML/Profil.html"> <input type="button" value="Profil" onclick="JSfunction()"/> </a>
-        <br/>
-        <br/>
-        <!-- Button redirected to Ajouter.html -->
-        <a href="/HTML/AjoutToDo.html"> <input type="button" value="AjoutToDo" onclick="JSfunction()"/> </a>
-        <br/>
-        <br/>
-        <!-- To Do List table -->
-            <h3> TO DO</h3>
-            <table>
-                <thead>
-                    <tr> <th> Description</th>
-                    <th>Date Ajout</th> 
-                    <th> Action</th>
-                    </tr>
-                 </thead>
-        <!--description table and date of adding and 3 button to manipulate -->         
-            <tbody>
-                    <tr>
-                            <td>Bouazizi Maher </td>
-                            <td><input type="date" name="date" placeholder="Date of adding"/> </td>
-                            <td> <input type="button" value="Done" />
-                                <button> Modifier </button>
-                                <input type="reset" value="Supprimer" /> </td>
-                   </tr>
-        
 
-            </tbody>
-        <br/>
-            <tbody>
-                    <tr>
-                            <td>Ayoub Ghozzi </td>
-                            <td><input type="date" name="date" placeholder="Date of adding"/> </td>
-                            <td> <input type="button" value="Done" />
-                                <button> Modifier </button>
-                                <input type="reset" value="Supprimer" /> </td>
-                   </tr>
-            </tbody>
-            </table>
-            <hr>
-            <!-- Done List table -->
-            <h3>Done</h3>
-            <table>
-                <thead>
-                    <tr> <th> Description</th>
-                    <th>Date Ajout</th> 
-                    <th> Date Initial</th>
-                    <th> Action</th>
-                    </tr>
-                 </thead>
-                 <tbody>
-                        <tr>
-                                <td>FormaLab </td>
-                                <td><input type="date" name="date" placeholder="Date of adding"/> </td>
-                                <td><input type="date" name="date" placeholder="Date of Initial"/> </td>
-                                <td><input type="reset" value="Supprimer" /> </td>
-                       </tr>
-                 
+<head>
+    <meta charset="UTF-8">
+    <title> ToDoList </title>
+    <link rel="stylesheet" href="../css/style_todolist.css" 
+
+</head>
+
+<body>
+    <!-- Logo of the page -->
+    <img src="/Images/img3.png" width="80px" />
+    <br />
+    <br />
+    <!-- Button redirected to Home.html -->
+    <a href="/HTML/Home.html"> <input type="button" value="Deconnexion" onclick="JSfunction()" /> </a>
+    <br />
+    <br />
+    <!-- Button redirected to Profil.html -->
+    <a href="/HTML/Profil.html"> <input type="button" value="Profil" onclick="JSfunction()" /> </a>
+    <br />
+    <br />
+    <!-- Button redirected to Ajouter.html -->
+    <a href="/HTML/AjoutToDo.html"> <input type="button" value="AjoutToDo" onclick="JSfunction()" /> </a>
+    <br />
+    <br />
+    <!-- To Do List table -->
+    <h3> TO DO</h3>
+    <table>
+        <thead>
+            <tr>
+                <th> Description</th>
+                <th>Date Ajout</th>
+                <th> Action</th>
+            </tr>
+        </thead>
+        <!--description table and date of adding and 3 button to manipulate -->
+        <tbody>
+            <tr>
+                <td>Bouazizi Maher </td>
+                <form action="">
+                <td><input type="date" name="date" placeholder="Date of adding" required/> </td>
+                <td> <input type="submit" value="Done" />
+                    <button> Modifier </button>
+                    <input type="reset" value="Supprimer" /> </td>
+                    </form>
+            </tr>
+
+
+        </tbody>
+        <br />
+        <tbody>
+            <tr>
+                <td>Ayoub Ghozzi </td>
+                <form action="">
+                <td><input type="date" name="date" placeholder="Date of adding" required/> </td>
+                <td> <input type="submit" value="Done" />
+                    <button> Modifier </button>
+                    <input type="reset" value="Supprimer" /> </td>
+                </form>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <!-- Done List table -->
+    <h3>Done</h3>
+    <table>
+        <thead>
+            <tr>
+                <th> Description</th>
+                <th>Date Ajout</th>
+                <th> Date Initial</th>
+                <th> Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>FormaLab </td>
+                <td><input type="date" name="date" placeholder="Date of adding" /> </td>
+                <td><input type="date" name="date" placeholder="Date of Initial" /> </td>
+                <td><input type="reset" value="Supprimer" /> </td>
+            </tr>
+
             </hr>
-    </body> 
+</body>
+
 </html>
-   

@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title> Connexion </title>
-</head>
-
-<body>
+    <link rel="stylesheet" href="../css/style_connexion.css" 
+</head> 
+    <body>
     <!-- Logo of the pgae-->
     <img src="/Images/img3.png" width="80px" />
     <br />
@@ -19,16 +19,23 @@
     <br />
     <!-- Form Sign In to complete -->
     <form action="AjoutToDo.html">
-        Email: <input type="email" name="nom d'utilisateur" placeholder="enter your mail" required="required" /> <br />
-        </br>
-        Password: <input type="password" name="mot de passe" placeholder="enter your password" required />
-        <!--Buttons to Submit redirected to ToDoList page and Reset to empty Informations already entred-->
-        <br> </br> </br>
-        <a href="ToDoList.html">   
-            <input type="submit" value="Confirm" />
-            <input type="reset" value="Reset" />
-        </a>
+        <fieldset>
+            <legend>Sign in:</legend>
+            <div>
+
+                Email: <input type="email" name="nom d'utilisateur" placeholder="enter your mail" required="required" />
+                <br />
+                </br>
+                Password: <input type="password" name="mot de passe" placeholder="enter your password" required />
+                <!--Buttons to Submit redirected to ToDoList page and Reset to empty Informations already entred-->
+                <br> </br> </br>
+                <a href="ToDoList.html">
+                    <input type="submit" value="Confirm" />
+                    <input type="reset" value="Reset" />
+                </a>
+            </div>
+        </fieldset>
     </form>
-</body>
+    </body>
 
 </html>

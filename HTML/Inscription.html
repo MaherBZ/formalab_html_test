@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title> Inscription </title>
+    <link rel="stylesheet" href="../css/style_inscription.css" 
+
 </head>
 
 <body>
@@ -19,6 +21,9 @@
     <br />
     <!-- Form to complete -->
     <form name="" method="" action="">
+            <fieldset>
+                    <legend>Sign up:</legend>
+                    <div>
         First Name: <input type="text" name="Nom" placeholder="your name " required /> </br> </br>
         Last Name: <input type="text" name="prenom" placeholder="your last name " required /> </br> </br>
         Date of Birth: <input type="date" name="date" placeholder="enter your date" required /> </br> </br>
@@ -27,13 +32,16 @@
         <input type="radio" name="gender" value="female" required /> Female </br> </br>
         Email: <input type="email" name="e mail" placeholder="enter your mail" required /></br> </br>
         Password: <input type="password" placeholder="Password" id="password" required /> </br> </br>
-        Confirm Password: <input type="password" placeholder="Confirm Password" id="confirm_password" required /></br> </br>
+        Confirm Password: <input type="password" placeholder="Confirm Password" id="confirm_password" required /></br>
+        </br>
 
         <!--Buttons to Submit redirected to another page and Reset Informations already entred-->
         <br>
         <input type="submit" value="Confirm" />
         <input type="reset" value="Reset" />
-    </form>    
+        </div>
+        </fieldset>
+    </form>
 
 
 </body>
