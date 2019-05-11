@@ -1,0 +1,12 @@
+.textarea
+ {
+    width: 70%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    background-color: #f8f8f8e8;
+    font-size: 16px;
+    resize: 200%;
+  }

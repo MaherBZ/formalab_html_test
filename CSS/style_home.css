@@ -1,0 +1,52 @@
+
+.vt
+{
+    color:black;
+    text-align: center;
+
+}
+.bord
+{
+    border: 1px solid orange;
+}
+a
+{
+    color:red; text-decoration: none;
+}
+a:hover
+{
+    color:green; text-decoration: underline;
+
+}
+.pos
+{
+    text-align: right;
+
+}
+a:visited
+{
+    color: grey;
+}
+.center 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .bloc1
+{
+height: 180px;
+width: 200%;
+background-color: #FF6600;
+}
+
+.bloc2
+ {
+    text-align: center;
+    font-size: 25px;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 166, 0); 
+}
+   

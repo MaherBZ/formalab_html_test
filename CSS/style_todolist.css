@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  table, td, th, tbody {  
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  table, tbody {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td, tbody {
+    padding: 15px;
+  }
+  
+  th, td, tbody {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tbody, tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: rgba(76, 173, 175, 0.917);
+    color: white;
+  }
