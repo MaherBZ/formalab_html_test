@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title> Ajouter </title>
+    <link rel="stylesheet" href="../css/style_ajoutodo.css" 
+
 </head>
 
 <body>
@@ -20,17 +22,15 @@
     <br />
     <!-- Button redirected to Ajouter.html -->
     <a href="/HTML/ToDoList.html"> <input type="button" value="ToDoList" onclick="JSfunction()" /> </a>
-    <br />
-    <br />
     <br>
-    <p>
+    <br>
+    <br>
         <h3> Description</h3>
-        <textarea rows="5" cols="100">
-                  Hello Ayoub! Hello FormaLab!
-             </textarea>
-        <br />
-        <input type="button" value="Ajouter" />
-
+        <form action="/HTML/ToDoList.html">
+        <textarea  class="textarea" name="comment" placeholder="Hello Ayoub! Hello Formalab!" required></textarea>
+        </br>
+        <input type="submit" value="Send" />
+        </form>
     </p>
 
     <br>
